@@ -5,10 +5,50 @@
   <title>Memory Tile Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/memory.css">
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <header class="col-md-12">
+        <h1>Popular Culture</h1>
+        <h2>Memory Tiles Game</h2>
+      </header>
+
+      <nav class="row">
+        <div class="col-md-3">
+          <input type="text" class="userInput" id="playerName" placeholder="Enter Player Name Here">
+          <input type="text" class="userInput" id="playerPassword" placeholder="Enter Password Here">
+          <button type="button" class="btn btn-left">Login</button>
+          <button type="button" class="btn btn-left">Register</button>
+        </div>
+
+        <div class="col-md-3">
+          <h3>LeaderBoard</h3>
+          <h4>1st Place : Kyle Misener</h4>
+          <h4>Linux Distro : 20 Attempts</h4>
+        </div>
+
+        <div class="col-md-3">
+              <select class="btn btn-right" id="deck" name="decks">
+                <option value="Deck To Play">Deck To Play</option>
+                <option value="linux">Linux Distro</option>
+                <option value="seinfeld">Seinfeld</option>
+                <option value="starTrek">Star Trek</option>
+              </select>
+              <button type="button" class="btn btn-right" id="shuffle">Shuffle Deck</button>
+              <button type="button" class="btn btn-right">Leaderboard</button>
+        </div>
+      </nav>
+
+      <section class="row">
+        <div class="col-md-12 clearfix" id="memory-board">
+          <h2>This is some text</h2>
+        </div>
+      </section>
+  </div>
   <script src="assets/js/jquery-2.1.4.min.js"></script>
-  <script src="assets/js/bootsrap.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/tiles.js"></script>
 </body>
 </html>

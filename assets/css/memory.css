@@ -1,0 +1,40 @@
+/*
+=====================================================
+                    BASE
+=====================================================
+*/
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  background-color: grey;
+}
+
+#memory-board {
+  background-color: blue;
+}
+
+.tile {
+  float: left;
+  position: relative;
+  width: 15.666%;
+  padding-bottom: 15.666%;
+  margin-left: 0.7%;
+  margin-top: 0.7%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url(../img/card_bg.jpg);
+	border: 1px solid #000;
+	cursor: pointer;
+}

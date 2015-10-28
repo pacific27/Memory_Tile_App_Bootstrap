@@ -136,7 +136,7 @@ var memory = (function() {
               /*Now that cards are randomized within the array create the cards for the
               game board giving each a unique id and passing (cardId,val) onClick*/
               for (var i = 0; i < arrays[deck].length; i++) {
-                  output += '<div class="tile" id="card_' + i + '" onclick="memory.flipCard(this,\'' + arrays[deck][i] + '\')"></div>';
+                  output += '<div class="col-md-2 tile" id="card_' + i + '" onclick="memory.flipCard(this,\'' + arrays[deck][i] + '\')"></div>';
               }
 
               //put the newly created cards into the gameboard
