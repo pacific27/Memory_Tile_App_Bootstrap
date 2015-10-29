@@ -6,10 +6,13 @@
 
 h1 {
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
-h2 {
+h3 {
   text-align: center;
+  margin-top: 0px;
 }
 
 header {
@@ -22,6 +25,7 @@ body {
 
 #memory-board {
   background-color: blue;
+  padding-left: 2.5%;
 }
 
 .tile {
@@ -37,4 +41,28 @@ body {
 	background-image: url(../img/card_bg.jpg);
 	border: 1px solid #000;
 	cursor: pointer;
+}
+
+/*
+===========================================================
+                     Component
+===========================================================
+*/
+
+.btn {
+  height: 100%;
+}
+
+.btn-left {
+  margin: 18px 5px 5px 5px;
+}
+
+.btn-right {
+  float: right;
+  margin: 18px 0px 0px 10px;
+}
+
+.userInput {
+  float: left;
+  margin: 10px 4px 0px 0px;
 }
